@@ -1,0 +1,8 @@
+sources:
+  "21.11.2":
+    url: "https://github.com/ChibiOS/ChibiOS/archive/refs/tags/ver21.11.2.tar.gz"
+    sha256: "a61be18ffc454f77c19ccc6c93919367d87333d228584f98c482fc4ac4a589af" 
+patches:
+  "21.11.2":
+    - patch_file: "patches/avr_build.patch"
+      base_path: "sources"
